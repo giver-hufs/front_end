@@ -34,7 +34,7 @@ export default function Login() {
           
           alert(res.data.name + "님 반갑습니다.")
         //   debugger
-          navigate("/", {replace:true});
+          navigate("/main", {replace:true});
         })
         .catch((error) => {
             debugger
