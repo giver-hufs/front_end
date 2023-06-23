@@ -36,15 +36,11 @@
 -------------
 ## Project Environment
 >
-> <img src="https://img.shields.io/badge/kakao-blue?style=flat&logo=KaKaomap&logoColor=white" width="200" height="100">
+> <img src="https://img.shields.io/badge/kakao-yellow?style=flat&logo=KaKaomap&logoColor=black" width="150" height="100">
 >
-> > <img src="https://img.shields.io/badge/javascript-red?style=flat&logo=javascript&logoColor=white" width="100" height="100">
+> > <img src="https://img.shields.io/badge/javascript-red?style=flat&logo=javascript&logoColor=white" width="150" height="100">
 >
-> > <img src = "https://user-images.githubusercontent.com/69896751/126107498-3f1366d8-7290-4c0d-9107-26cc2f944d8a.jpeg" width="200" height="100" text="Text to Speech">   
-------------
-## Project Plan
-> <img src = "https://user-images.githubusercontent.com/73592778/128461400-c5dc3d5d-b01f-4f97-a1c4-550d95cc8de6.png" width="700" height="400">
->
+> > <img src="https://img.shields.io/badge/react-pink?style=flat&logo=react&logoColor=black" width = "150" height = "100">   
 ------------
 ## Project Role
 > **Developement** : 이예은, 김선우, 한관진, 이병권
