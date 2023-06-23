@@ -36,11 +36,11 @@
 -------------
 ## Project Environment
 >
-> <img src="https://img.shields.io/badge/kakao-yellow?style=flat&logo=KaKaomap&logoColor=black" width="150" height="100">
+> > <img src="https://img.shields.io/badge/kakao-yellow?style=flat&logo=KaKaomap&logoColor=black" width="150" height="100">
 >
-> > <img src="https://img.shields.io/badge/javascript-red?style=flat&logo=javascript&logoColor=white" width="150" height="100">
+> > <img src="https://img.shields.io/badge/javascript-orange?style=flat&logo=javascript&logoColor=white" width="200" height="100">
 >
-> > <img src="https://img.shields.io/badge/react-pink?style=flat&logo=react&logoColor=black" width = "150" height = "100">   
+> > <img src="https://img.shields.io/badge/react-green?style=flat&logo=react&logoColor=black" width = "150" height = "100">   
 ------------
 ## Project Role
 > **Developement** : 이예은, 김선우, 한관진, 이병권
