@@ -60,6 +60,7 @@ export const HeaderStyled = styled.div `
         border-radius: 10px;
         top: 63px;
         right: 144px;
+        z-index: 1;
     }
 `
 
