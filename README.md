@@ -38,7 +38,7 @@
 >
 > <img src="https://img.shields.io/badge/kakao-blue?style=flat&logo=KaKaomap&logoColor=white" width="200" height="100">
 >
-> > <img src = "https://user-images.githubusercontent.com/69896751/126106905-93b82409-7d37-4b95-9718-c2fb3be58e3e.png" width="100" height="100">
+> > <img src="https://img.shields.io/badge/javascript-red?style=flat&logo=javascript&logoColor=white" width="100" height="100">
 >
 > > <img src = "https://user-images.githubusercontent.com/69896751/126107498-3f1366d8-7290-4c0d-9107-26cc2f944d8a.jpeg" width="200" height="100" text="Text to Speech">   
 ------------
