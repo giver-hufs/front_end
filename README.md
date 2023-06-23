@@ -36,7 +36,7 @@
 -------------
 ## Project Environment
 >
-> <img src="https://img.shields.io/badge/kakao-blue?style=flat&logo=KaKao&logoColor=white" width="100" height="100">
+> <img src="https://img.shields.io/badge/kakao-blue?style=flat&logo=KaKaomap&logoColor=white" width="200" height="100">
 >
 > > <img src = "https://user-images.githubusercontent.com/69896751/126106905-93b82409-7d37-4b95-9718-c2fb3be58e3e.png" width="100" height="100">
 >
