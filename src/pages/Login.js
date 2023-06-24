@@ -21,12 +21,11 @@ export default function Login() {
 
   const handleEnter = (e) => {
     if (e.key === "Enter") {
-      ClickLogin(e);
+      handleLogin();
     }
   };
 
-  const ClickLogin = (e) => {
-    e.preventDefault();
+  const handleLogin = () => {
     axios
       .post("https://giver.fly.dev/user/login", {
         id: id,
@@ -36,15 +35,18 @@ export default function Login() {
         console.log(res);
         console.log(res.data);
 
-        sessionStorage.setItem("id", id);
-        sessionStorage.setItem("name", res.data.name);
+        localStorage.setItem("id", id);
+        localStorage.setItem("name", res.data.nickname);
+        localStorage.setItem("major", res.data.major);
+        localStorage.setItem("password", res.data.password);
+        localStorage.setItem("universityCode", res.data.universityCode);
+        localStorage.setItem("phonenumber", res.data.phonenumber);
 
         alert(res.data.name + "님 반갑습니다.");
-        setIsLoggedIn(true);
-        navigate("/", { replace: true });
+        navigate("/main", { replace: true });
       })
       .catch((error) => {
-        debugger;
+        console.error(error);
         alert(error.response.data.message);
       });
   };
@@ -76,10 +78,8 @@ export default function Login() {
               <input
                 type="text"
                 placeholder="id"
-                name={id}
-                onChange={(e) => {
-                  setId(e.target.value);
-                }}
+                value={id}
+                onChange={(e) => setId(e.target.value)}
                 onKeyDown={handleEnter}
               />
             </div>
@@ -90,10 +90,8 @@ export default function Login() {
               <input
                 type="password"
                 placeholder="password"
-                name={password}
-                onChange={(e) => {
-                  setPassword(e.target.value);
-                }}
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
                 onKeyDown={handleEnter}
               />
             </div>
@@ -112,7 +110,7 @@ export default function Login() {
           <Link to="/signup">
             <button className="login-btn-signup">회원가입</button>
           </Link>
-          <button className="login-btn-login" onClick={ClickLogin}>
+          <button className="login-btn-login" onClick={handleLogin}>
             로그인
           </button>
         </div>
