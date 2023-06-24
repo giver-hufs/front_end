@@ -1,11 +1,11 @@
 import React from "react";
-import BasicHeader from "../components/BasicHeader";
+import MainHeader from "../components/MainHeader";
 import DonationBar from "../components/DonationBar";
 
 function Donation(props) {
   return (
     <div>
-      <BasicHeader />
+      <MainHeader />
       <DonationBar />
     </div>
   );

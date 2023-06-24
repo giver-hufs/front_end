@@ -16,7 +16,7 @@ export default function MypageSidebar() {
   useEffect(() => {
     // 사용자 정보(주소코드)
     axios
-      .get(`https://falling-fire-8326.fly.dev/user/${sessionStorage.id}/info`)
+      .get(`https://giver.fly.dev/user/${sessionStorage.id}/info`)
       .then((res) => {
         setName(res.data.name);
       })
