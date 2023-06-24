@@ -26,12 +26,16 @@ export default function Login() {
           password: password,
         })
         .then((res) => {
-          console.log(res)
-          console.log(res.data)
+            console.log(res)
+            console.log(res.data)
 
-          sessionStorage.setItem("id", id);
-          sessionStorage.setItem("name", res.data.name)
-          
+            localStorage.setItem("id", id);
+            localStorage.setItem("name", res.data.nickname);
+            localStorage.setItem("major", res.data.major);
+            localStorage.setItem("password", res.data.password);
+            localStorage.setItem("universityCode", res.data.universityCode);
+            localStorage.setItem("phonenumber", res.data.phonenumber);
+
           alert(res.data.name + "님 반갑습니다.")
         //   debugger
           navigate("/main", {replace:true});

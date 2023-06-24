@@ -9,9 +9,10 @@ export const RequestStyled = styled.div `
         flex-direction: column;
         gap: 10px;
         width: 650px;
-
+        margin-top: 20px;
+        
         input {
-            font-size: 19px;
+            font-size: 19px;ChatStyled
             padding: 10px;
             background: white;
             border: none;
@@ -46,6 +47,13 @@ export const RequestStyled = styled.div `
 `
 
 export const ChatStyled = styled.div `
+.chat-list {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+}
+
 .mainchat-address{
     padding: 40px 20% 20px;
 }    
@@ -128,11 +136,9 @@ export const ChatStyled = styled.div `
     }
 
     .mainchat-input {
-        width: 80%;
+        width: 590px;
         height: 60px;
         position: absolute;
-        bottom: 6%;
-        left: 6%;
 
         .mainchat-addbtn {
             position: absolute;
@@ -165,10 +171,9 @@ export const ChatStyled = styled.div `
         .mainchat-sendbtn {
             position: absolute;
             z-index: 999;
-            bottom: -10px;
-            right: -9%;
-            width: 72px;
-            height: 72px;
+            right: -15%;
+            width: 58px;
+            height: 62px;
             border-radius: 21px;
             border: none;
             background: linear-gradient(100deg, rgb(167 201 163), rgb(243 252 225));

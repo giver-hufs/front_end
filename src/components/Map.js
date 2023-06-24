@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { MapStyled } from "../styles/MainStyled";
 
 function Map(props) {
   useEffect(() => {
@@ -75,14 +76,15 @@ function Map(props) {
   }, []);
 
   return (
-    <>
+    <MapStyled>
+      <h3>my location</h3>
+
       <div
         id="map"
-        style={{ width: "500px", height: "400px" }}
+        style={{ width: "500px", height: "500px" }}
         className="map-size"
       ></div>
-      <h3>장애 학우를 위한 동선</h3>
-    </>
+    </MapStyled>
   );
 }
 
