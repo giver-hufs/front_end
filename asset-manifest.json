@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/giver-hufs/front_end/static/css/main.5fb4b327.css",
+    "main.js": "/giver-hufs/front_end/static/js/main.8744a165.js",
+    "index.html": "/giver-hufs/front_end/index.html",
+    "main.5fb4b327.css.map": "/giver-hufs/front_end/static/css/main.5fb4b327.css.map",
+    "main.8744a165.js.map": "/giver-hufs/front_end/static/js/main.8744a165.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fb4b327.css",
+    "static/js/main.8744a165.js"
+  ]
+}
