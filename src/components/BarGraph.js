@@ -4,6 +4,8 @@ import styled from "styled-components";
 const GraphContainer = styled.div`
   display: flex;
   flex-direction: row;
+  align-items: center;
+  gap: 14px;
 `;
 
 const Bar = styled.div`
