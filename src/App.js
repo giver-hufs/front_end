@@ -20,7 +20,6 @@ function App() {
         <Route path="/request" element={<Request />}></Route>
         <Route path="/mypage/*" element={<Mypage />}></Route>
         <Route path="/complete" element={<Finish />}></Route>
-
         <Route path="/donation" element={<Donation />}></Route>
       </Routes>
     </div>
