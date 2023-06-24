@@ -26,11 +26,13 @@ export default function MyInfo() {
   useEffect(() => {
     // 사용자 정보(주소코드)
     axios
-      .post(UserURL, { id: "test00", password: "test00" })
+      .post(UserURL, {
+        id: sessionStorage.id,
+        password: sessionStorage.password,
+      })
       .then((res) => {
         setPassword(res.data.password);
         setName(res.data.name);
-        setPhonenumber(res.data.phonenumber);
         console.log(res.data);
       })
       .catch((error) => {

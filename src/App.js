@@ -8,6 +8,7 @@ import Mypage from "./pages/Mypage";
 import Finish from "./pages/FinishSignup";
 import Donation from "./pages/Donation";
 import Request from "./pages/RequestPage";
+import Myintroduce from "./pages/Myintroduce";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/mypage/*" element={<Mypage />}></Route>
         <Route path="/complete" element={<Finish />}></Route>
         <Route path="/donation" element={<Donation />}></Route>
+        <Route path="/introduce" element={<Myintroduce />}></Route>
       </Routes>
     </div>
   );

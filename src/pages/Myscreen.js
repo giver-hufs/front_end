@@ -18,8 +18,11 @@ const rewards = [
 ];
 
 const ThermometerForm = styled.div`
-  display: flex;
-  align-items: flex-end;
+  display: left;
+  align-items: left;
+  justify-content: center;
+  background-color: none;
+  text-align: left;
 `;
 const ScrollableList = styled.div`
   height: 300px;
@@ -72,15 +75,13 @@ const RewardList = () => {
 
   return (
     <div>
+      <ThermometerForm>
+        <Thermometer fillPercentage={calculateFillPercentage(rewards.points)} />
+        <p>37도</p>
+      </ThermometerForm>
       <h2>Rewards</h2>
 
       <ScrollableList>
-        <ThermometerForm>
-          <Thermometer
-            fillPercentage={calculateFillPercentage(rewards.points)}
-          />
-          <p>37도 입니다.</p>
-        </ThermometerForm>
         <ul>
           {rewards.map((reward) => (
             <li key={reward.id}>

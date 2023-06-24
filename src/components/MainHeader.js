@@ -1,6 +1,7 @@
 import { HeaderStyled } from "../styles/ComponentStyled";
 import Logo from "../components/Logo";
 import React, { useState } from "react";
+import { Link } from "react-router-dom/dist";
 
 export default function BasicHeader() {
   const [drop, setDrop] = useState(false);
@@ -16,10 +17,10 @@ export default function BasicHeader() {
       />
       {drop && (
         <div className="main-dropbar">
-          <div>사이트 소개</div>
-          <div>매칭</div>
-          <div>기부</div>
-          <div>마이페이지</div>
+          <Link to="/introduce">사이트 소개</Link>
+          <Link to="/main">매칭</Link>
+          <Link to="/donation">기부</Link>
+          <Link to="/mypage/*">마이페이지</Link>
         </div>
       )}
     </HeaderStyled>
